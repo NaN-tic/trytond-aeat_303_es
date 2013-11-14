@@ -15,9 +15,9 @@ from trytond.tests.test_tryton import test_view, test_depends
 from trytond.backend.sqlite.database import Database as SQLiteDatabase
 
 
-class TestCase(unittest.TestCase):
+class Aeat303EsTestCase(unittest.TestCase):
     '''
-    Test module.
+    Test AEAT 303 ES module.
     '''
 
     def setUp(self):
@@ -31,7 +31,8 @@ class TestCase(unittest.TestCase):
 
 def suite():
     suite = trytond.tests.test_tryton.suite()
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestCase))
+    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
+            Aeat303EsTestCase))
     return suite
 
 if __name__ == '__main__':
