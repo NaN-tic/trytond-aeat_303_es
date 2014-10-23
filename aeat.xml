@@ -442,7 +442,7 @@
         <record model="aeat.303.template.mapping" id="aeat_303_mapping_code_43">
             <field name="type_">code</field>
             <field name="aeat303_field"
-                search="[('name', '=','exports')]"/>
+                search="[('module', '=', 'aeat_303'), ('name', '=','exports')]"/>
         </record>
 
         <record model="aeat.303.mapping-account.tax.code.template"
